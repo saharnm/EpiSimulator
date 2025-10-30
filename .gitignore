@@ -1,0 +1,45 @@
+# =====================================================
+# EpiSimulator Project .gitignore
+# Purpose: Keep repo clean and reproducible
+# =====================================================
+
+# --- 1. Data files ---
+# Ignore large raw or original data
+data_original/
+data/raw/
+data/temp/
+*.gz
+*.zip
+*.tar
+*.bam
+*.sam
+*.h5
+*.npz
+*.rds
+*.rda
+*.fastq
+*.fq
+*.vcf
+*.bed
+
+# Keep small processed or example data
+!data/example_*
+
+# --- 2. Jupyter and Colab artifacts ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.ipynb_save
+
+# --- 3. Python temporary files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- 4. Reports / results ---
+# Keep summary reports (PDFs, markdown)
+reports/drafts/
+reports/temp/
+reports/*.html
+reports/*.log
+reports/*.tmp
