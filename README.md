@@ -13,7 +13,7 @@ EpiSimulator integrates matched tumor and normal methylation and gene expression
 * Predictive Modeling: Multi-task ElasticNet regression linking methylation (DMRs) to expression changes after dimensionality reduction by PCA
 * Simulation: In silico reprogramming of DMRs (tumor → normal) to rank loci by expression impact
 
-## Outputs
+## Results
 * Simulated “methylation reprogramming” effect scores to identify DMRs with strongest expression response
 * List of Genes with strongest expression change after  “methylation reprogramming”
 
