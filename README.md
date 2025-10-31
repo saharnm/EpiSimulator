@@ -2,10 +2,10 @@
 
 EpiSimulator is an AI-assisted framework for identifying and prioritizing CpG methylation sites whose targeted epigenetic editing could shift tumor gene expression profiles toward a normal-like state.
 
-## 🔍 Overview
+## Overview
 EpiSimulator integrates DNA methylation and gene expression data from Lung Adenocarcinoma (LUAD) patients in The Cancer Genome Atlas (TCGA) to uncover methylation sites most likely to influence transcription level. By combining statistical modeling, multi-task machine learning, and in silico methylation reversion, it ranks differentially methylated regions (DMRs) based on their predicted impact on gene expression, providing a rational foundation for epigenetic therapy target discovery.
 
-## 🧠 What It Does
+## What It Does
 EpiSimulator integrates matched tumor and normal methylation and gene expression data to:
 * Differential Expression Analysis: DESeq2 (R)
 * Differential Methylation Analysis: statistical comparison across tumor/normal pairs
@@ -45,5 +45,5 @@ Execute these notebooks sequentially:
 - Preclinical epigenetic therapy design
 - CRISPR epigenome targeting (dCas9-TET/MeCP2)
 
-## 📫 Contact
+## Contact
 [Sahar Malakshah] — [saharnm@gmail.com]
