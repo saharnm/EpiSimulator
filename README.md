@@ -41,7 +41,7 @@ Execute these notebooks sequentially:
 * **5_EpiWrite_MultiTaskElasticNetCV_DMR_Simulation_MVP.ipynb**: `Machine learning modeling and tumor to normal DMR simulation`
 
 
-## 📈 Use Cases
+## Use Cases
 - Preclinical epigenetic therapy design
 - CRISPR epigenome targeting (dCas9-TET/MeCP2)
 
